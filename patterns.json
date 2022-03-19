@@ -1,0 +1,22 @@
+[
+        {
+            "display":"comment",
+            "regex":"(/\\*([^*]|[\r\n]|(\\*+([^*/]|[\r\n])))*\\*+/)|(//.*)",
+            "pattern_type":"regex"
+        },
+        {
+            "display":"aws-key",
+            "regex":"([^A-Z0-9]|^)(AKIA|A3T|AGPA|AIDA|AROA|AIPA|ANPA|ANVA|ASIA)[A-Z0-9]{12,}",
+            "pattern_type":"regex"
+        },
+        {
+            "display":"password",
+            "regex":"password",
+            "pattern_type":"text"
+        },
+        {
+            "display":"eval",
+            "regex":"eval",
+            "pattern_type":"text"
+        }
+]
